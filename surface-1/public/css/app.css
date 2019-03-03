@@ -733,6 +733,13 @@ h2 {
 }
 
 h3 {
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 700;
+  color: #e7e7e7;
+}
+
+h4 {
   font-size: 36px;
   color: #c2c2c2;
 }
@@ -4014,6 +4021,10 @@ h3 {
 }
 
 .text-xl {
+  font-size: 70px;
+}
+
+.text-2xl {
   font-size: 90px;
 }
 
@@ -7620,6 +7631,10 @@ h3 {
   }
 
   .sm\:text-xl {
+    font-size: 70px;
+  }
+
+  .sm\:text-2xl {
     font-size: 90px;
   }
 
@@ -11212,6 +11227,10 @@ h3 {
   }
 
   .md\:text-xl {
+    font-size: 70px;
+  }
+
+  .md\:text-2xl {
     font-size: 90px;
   }
 
@@ -14804,6 +14823,10 @@ h3 {
   }
 
   .lg\:text-xl {
+    font-size: 70px;
+  }
+
+  .lg\:text-2xl {
     font-size: 90px;
   }
 
@@ -18396,6 +18419,10 @@ h3 {
   }
 
   .xl\:text-xl {
+    font-size: 70px;
+  }
+
+  .xl\:text-2xl {
     font-size: 90px;
   }
 

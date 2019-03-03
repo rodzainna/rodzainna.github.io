@@ -157,7 +157,8 @@ module.exports = {
     'base': '20px',
     'md': '24px',
     'lg': '36px',
-    'xl': '90px',
+    'xl': '70px',
+    '2xl': '90px',
   },
 
 

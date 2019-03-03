@@ -698,8 +698,10 @@ table {
   /* IE9 Compat Modes */
 }
 
-html {
+html,
+body {
   font-family: Proxima Nova, sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -734,7 +736,7 @@ h2 {
 
 h3 {
   text-transform: uppercase;
-  font-size: 70px;
+  font-size: 64px;
   font-weight: 700;
   color: #e7e7e7;
 }
@@ -773,6 +775,11 @@ h4 {
 
 .pin-b-50 {
   bottom: 50%;
+}
+
+.download-logo {
+  left: 20%;
+  top: -10%;
 }
 
 /**
@@ -4021,11 +4028,35 @@ h4 {
 }
 
 .text-xl {
-  font-size: 70px;
+  font-size: 64px;
 }
 
 .text-2xl {
   font-size: 90px;
+}
+
+.text-mxs {
+  font-size: 8px;
+}
+
+.text-msm {
+  font-size: 12px;
+}
+
+.text-mbase {
+  font-size: 15px;
+}
+
+.text-mlg {
+  font-size: 28px;
+}
+
+.text-m2xl {
+  font-size: 32px;
+}
+
+.text-m3xl {
+  font-size: 50px;
 }
 
 .italic {
@@ -7631,11 +7662,35 @@ h4 {
   }
 
   .sm\:text-xl {
-    font-size: 70px;
+    font-size: 64px;
   }
 
   .sm\:text-2xl {
     font-size: 90px;
+  }
+
+  .sm\:text-mxs {
+    font-size: 8px;
+  }
+
+  .sm\:text-msm {
+    font-size: 12px;
+  }
+
+  .sm\:text-mbase {
+    font-size: 15px;
+  }
+
+  .sm\:text-mlg {
+    font-size: 28px;
+  }
+
+  .sm\:text-m2xl {
+    font-size: 32px;
+  }
+
+  .sm\:text-m3xl {
+    font-size: 50px;
   }
 
   .sm\:italic {
@@ -11227,11 +11282,35 @@ h4 {
   }
 
   .md\:text-xl {
-    font-size: 70px;
+    font-size: 64px;
   }
 
   .md\:text-2xl {
     font-size: 90px;
+  }
+
+  .md\:text-mxs {
+    font-size: 8px;
+  }
+
+  .md\:text-msm {
+    font-size: 12px;
+  }
+
+  .md\:text-mbase {
+    font-size: 15px;
+  }
+
+  .md\:text-mlg {
+    font-size: 28px;
+  }
+
+  .md\:text-m2xl {
+    font-size: 32px;
+  }
+
+  .md\:text-m3xl {
+    font-size: 50px;
   }
 
   .md\:italic {
@@ -14823,11 +14902,35 @@ h4 {
   }
 
   .lg\:text-xl {
-    font-size: 70px;
+    font-size: 64px;
   }
 
   .lg\:text-2xl {
     font-size: 90px;
+  }
+
+  .lg\:text-mxs {
+    font-size: 8px;
+  }
+
+  .lg\:text-msm {
+    font-size: 12px;
+  }
+
+  .lg\:text-mbase {
+    font-size: 15px;
+  }
+
+  .lg\:text-mlg {
+    font-size: 28px;
+  }
+
+  .lg\:text-m2xl {
+    font-size: 32px;
+  }
+
+  .lg\:text-m3xl {
+    font-size: 50px;
   }
 
   .lg\:italic {
@@ -18419,11 +18522,35 @@ h4 {
   }
 
   .xl\:text-xl {
-    font-size: 70px;
+    font-size: 64px;
   }
 
   .xl\:text-2xl {
     font-size: 90px;
+  }
+
+  .xl\:text-mxs {
+    font-size: 8px;
+  }
+
+  .xl\:text-msm {
+    font-size: 12px;
+  }
+
+  .xl\:text-mbase {
+    font-size: 15px;
+  }
+
+  .xl\:text-mlg {
+    font-size: 28px;
+  }
+
+  .xl\:text-m2xl {
+    font-size: 32px;
+  }
+
+  .xl\:text-m3xl {
+    font-size: 50px;
   }
 
   .xl\:italic {
